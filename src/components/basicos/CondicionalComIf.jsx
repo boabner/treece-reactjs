@@ -8,10 +8,10 @@ export default props => {
         <div>
             <h2>O Número é {props.numero}</h2>
             <If test={props.numero % 2 === 0}>
-                <spam>Par</spam>
+                <span>Par</span>
             </If>
             <If test={props.numero % 2 === 1}>
-                <spam>ímpar</spam>
+                <span>ímpar</span>
             </If>
         </div>
     )
